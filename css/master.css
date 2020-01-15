@@ -1,0 +1,235 @@
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+/*_______________________________________________________________section_1_______________________________________________________*/
+#sec_1{
+background-image: url("background-image-1.jpg");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px 100px ;
+
+}
+/*_______________________________________________________________navpar_______________________________________________________*/
+#logo {
+  height: 100.942px ;
+}
+#nav_bar_text li  a:not(#log_in) {
+  font-size: 15pt ;
+  color: #154D74 ;
+}
+#log_in {
+  background-color: #154D74 ;
+  height: 36.345px  ;
+  font-size: 15pt ;
+  color: #FFFFFF ;
+}
+#nav_loction{
+}
+/*_______________________________________________________________navpar_______________________________________________________*/
+
+#head1 h1 {
+  font-size: 40pt ;
+  color: #E1545D ;
+}
+#head1 h1 span {
+  font-size: 66pt ;
+  color: #D92935 ;
+}
+#head1 h1{
+  font-weight: bold;
+}
+#head1 button img {
+height: 46.148px ;
+}
+#head1 button  {
+height: 90.28px ;
+width: 352.318px ;
+font-size: 33pt ;
+background-color: #154D74 ;
+border-radius: 25px;
+}
+#head1{
+  padding: 100px 40px 200px  ;
+}
+@media only screen and (max-width: 700px) {
+  #head1 h1 {
+    font-size: 20pt ;
+    color: #E1545D ;
+  }
+  #head1 h1 span {
+    font-size: 40pt ;
+    color: #D92935 ;
+  }
+  #head1 h1{
+    font-weight: bold;
+  }
+  #sec_1{
+padding: 20px ;
+  }
+  #head1 button  {
+  height: 50px ;
+  width: 200px ;
+  font-size: 22pt ;
+  background-color: #154D74 ;
+  border-radius: 10px;
+  }
+  #head1 button img {
+  height: 20px ;
+  }
+  #logo {
+    height: 72px ;
+  }
+}
+/*_______________________________________________________________section_1_______________________________________________________*/
+/*_______________________________________________________________section_2_______________________________________________________*/
+#sec_2:not(h1){
+  font-size: 10pt;
+  padding: 50px 100px ;
+
+}
+#sec_2 h2{
+ font-size: 30pt ;
+ color: #D92935 ;
+}
+
+#sec_2 .tital_1{
+  font-weight: bold;
+}
+#sec_2 .card-img {
+  height: 100%;
+  background-color: #444;
+  object-fit: cover
+}
+#sec_2 .card_text_1 {
+      margin: 0px;
+      padding: 5px;
+}
+  #sec_2 .col-sm-1{
+          padding: 5px ;
+  }
+
+  #sec_2 .ha{
+  color: #D92935 ;
+  margin-bottom: 5px ;}
+  /*_______________________________________________________________section_2_______________________________________________________*/
+  /*_______________________________________________________________section_3_______________________________________________________*/
+  #sec_3{
+    color: #05253B ;
+  }
+  #sec_3 h2 {
+   font-size: 30pt ;
+   color: #D92935 ;
+  padding: 25px 100px ;
+  }
+  #sec_3 .img_1 {
+height: 175px ;
+width: 175px ;
+
+  }
+  #sec_3 .img {
+    background-color: #444;
+object-fit:cover ;
+width: 175px;
+height: 175px ;
+object-position: 50% 50%;
+border-radius: 100%;
+ }
+ #sec_3 .btn_1{
+   background-color: #154D74 ;
+   border-radius: 50px ;
+   width: 150px ;
+ }
+
+#sec_3 .row{
+  padding: 30px 0px ;
+}
+#sec_3 .text-right{
+  padding-right: 20px ;
+}
+/*_______________________________________________________________section_3_______________________________________________________*/
+/*_______________________________________________________________section_4_______________________________________________________*/
+#sec_4 h2 {
+ font-size: 30pt ;
+ color: #D92935 ;
+padding: 25px 150px ;
+
+}
+#sec_4 .img_1 {
+height: 100px ;
+width: 100px ;
+
+}
+#sec_4 .img {
+  background-color: #444;
+  object-fit:cover ;
+  height: 100px ;
+  width: 100px ;
+  object-position: 50% 50%;
+  border-radius: 100%;
+}
+#sec_4 .text_name{
+  margin:20px ;
+}
+#sec_4 .card_fed{
+  background-color: #EDF5F9 ;
+  border: 1px   ;
+  padding: 25px 25px 0px 25px ;
+  border-style: solid;
+  border-color:#D1E1EB;
+  border-radius: 25px ;
+
+}
+#sec_4 .text{
+  padding:10px 50px ;
+}
+/*_______________________________________________________________section_4_______________________________________________________*/
+/*_______________________________________________________________section_5_______________________________________________________*/
+#footer {
+  background-color: #05253B ;
+  padding: 50px ;
+  margin-top: 60px ;
+  padding-bottom: 25px ;
+
+}
+#footer .img_1{
+  height: 61.921px ;
+}
+#footer .text  {
+  padding: 20px 5px ;
+  font-size: 150% ;
+}
+#footer .text  a {
+  padding-right:  20px ;
+  color: #EDF5F9 ;
+}
+#footer .img_footer  a  {
+  height: 40px ;
+  padding: 20px 5px ;
+}
+#footer .img_footer  a img {
+  height: 40px ;
+}
+#footer .log   {
+  padding-right:  20px ;
+  padding: 20px 5px 0px ;
+}
+
+#footer .log a  {
+  padding-right:  20px ;
+  color: #EDF5F9 ;
+  padding: 20px 5px ;
+}
+#footer .log .btn_2  {
+background-color:  #EDF5F9 ;
+color: #05253B;
+}
+#footer hr{
+  border-top: 0.5px solid #B3B3B3;
+  width: 40% ;
+}
+#footer .text_f {
+color: #B3B3B3;
+font-size: 75% ;
+}
